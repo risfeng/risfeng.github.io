@@ -6,7 +6,7 @@
   <link href="https://risfeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://risfeng.github.io/"/>
-  <updated>2021-04-29T15:46:16.227Z</updated>
+  <updated>2021-04-29T15:57:06.804Z</updated>
   <id>https://risfeng.github.io/</id>
   
   <author>
@@ -17,36 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo博客模版</title>
-    <link href="https://risfeng.github.io/2021/04/29/tgzeiv.html"/>
-    <id>https://risfeng.github.io/2021/04/29/tgzeiv.html</id>
-    <published>2021-04-29T15:23:23.000Z</published>
-    <updated>2021-04-29T15:46:16.227Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;文章摘要部分很少啊啊啊&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="java" scheme="https://risfeng.github.io/categories/java/"/>
-    
-    <category term="jvm" scheme="https://risfeng.github.io/categories/java/jvm/"/>
-    
-    <category term="blog" scheme="https://risfeng.github.io/categories/blog/"/>
-    
-    
-    <category term="tag1" scheme="https://risfeng.github.io/tags/tag1/"/>
-    
-    <category term="tag2" scheme="https://risfeng.github.io/tags/tag2/"/>
-    
-  </entry>
-  
-  <entry>
     <title>MySql的一些设计规范及Explain工具解析</title>
     <link href="https://risfeng.github.io/2021/04/29/gc9p5v.html"/>
     <id>https://risfeng.github.io/2021/04/29/gc9p5v.html</id>
     <published>2021-04-28T16:17:22.000Z</published>
-    <updated>2021-04-29T15:46:16.559Z</updated>
+    <updated>2021-04-29T15:57:06.804Z</updated>
     
     
       
@@ -68,7 +43,7 @@
     <link href="https://risfeng.github.io/2020/06/06/ve2rr3.html"/>
     <id>https://risfeng.github.io/2020/06/06/ve2rr3.html</id>
     <published>2020-06-06T09:55:19.000Z</published>
-    <updated>2021-04-29T15:46:16.575Z</updated>
+    <updated>2021-04-29T15:57:06.820Z</updated>
     
     
       
@@ -89,7 +64,7 @@
     <link href="https://risfeng.github.io/2019/07/11/yd5zw0.html"/>
     <id>https://risfeng.github.io/2019/07/11/yd5zw0.html</id>
     <published>2019-07-11T05:08:07.000Z</published>
-    <updated>2021-04-29T15:46:16.579Z</updated>
+    <updated>2021-04-29T15:57:06.824Z</updated>
     
     
       
@@ -111,7 +86,7 @@
     <link href="https://risfeng.github.io/2019/06/12/rq1xza.html"/>
     <id>https://risfeng.github.io/2019/06/12/rq1xza.html</id>
     <published>2019-06-12T14:19:08.000Z</published>
-    <updated>2021-04-29T15:46:16.587Z</updated>
+    <updated>2021-04-29T15:57:06.832Z</updated>
     
     
       
@@ -124,27 +99,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>JVM 对象布局</title>
-    <link href="https://risfeng.github.io/2017/03/19/ma4fim.html"/>
-    <id>https://risfeng.github.io/2017/03/19/ma4fim.html</id>
-    <published>2017-03-19T10:27:01.000Z</published>
-    <updated>2021-04-29T15:46:16.235Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Hexo + Github + 语雀 + yuque-hexo +travis-ci+severless 打造全自动持续集成个人博客，云端写作，自动部署，完美体验~&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="前端" scheme="https://risfeng.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-    <category term="hexo" scheme="https://risfeng.github.io/tags/hexo/"/>
-    
-    <category term="node" scheme="https://risfeng.github.io/tags/node/"/>
     
   </entry>
   

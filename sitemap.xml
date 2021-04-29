@@ -30,34 +30,6 @@
   </url>
   
   <url>
-    <loc>https://risfeng.github.io/2017/03/19/ma4fim.html</loc>
-    
-    <lastmod>2021-04-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/2021/04/29/tgzeiv.html</loc>
-    
-    <lastmod>2021-04-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/timeline/index.html</loc>
-    
-    <lastmod>2021-04-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/404/index.html</loc>
-    
-    <lastmod>2021-04-29</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://risfeng.github.io/about/index.html</loc>
     
     <lastmod>2021-04-29</lastmod>
@@ -99,6 +71,20 @@
     
   </url>
   
+  <url>
+    <loc>https://risfeng.github.io/timeline/index.html</loc>
+    
+    <lastmod>2021-04-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://risfeng.github.io/404/index.html</loc>
+    
+    <lastmod>2021-04-29</lastmod>
+    
+  </url>
+  
 
   <url>
     <loc>https://risfeng.github.io/</loc>
@@ -108,62 +94,6 @@
   </url>
 
   
-  <url>
-    <loc>https://risfeng.github.io/tags/hexo/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/tags/node/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/tags/tag1/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/tags/tag2/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>https://risfeng.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/categories/java/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/categories/java/jvm/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/categories/blog/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
   
 </urlset>

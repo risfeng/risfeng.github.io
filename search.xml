@@ -4,37 +4,6 @@
   
     
     <entry>
-      <title>hexo博客模版</title>
-      <link href="2021/04/29/tgzeiv.html"/>
-      <url>2021/04/29/tgzeiv.html</url>
-      
-        <content type="html"><![CDATA[<p>文章摘要部分很少啊啊啊</p><span id="more"></span><h1 id="正文标题-1"><a href="#正文标题-1" class="headerlink" title="正文标题 1"></a>正文标题 1</h1><h2 id="正文标题-1-1"><a href="#正文标题-1-1" class="headerlink" title="正文标题 1.1"></a>正文标题 1.1</h2><h3 id="正文标题-1-1-1"><a href="#正文标题-1-1-1" class="headerlink" title="正文标题 1.1.1"></a>正文标题 1.1.1</h3><h4 id="正文标题-1-1-1-1"><a href="#正文标题-1-1-1-1" class="headerlink" title="正文标题 1.1.1.1"></a>正文标题 1.1.1.1</h4><h1 id="正文标题-2"><a href="#正文标题-2" class="headerlink" title="正文标题 2"></a>正文标题 2</h1><h2 id="正文标题-2-1"><a href="#正文标题-2-1" class="headerlink" title="正文标题 2.1"></a>正文标题 2.1</h2><h3 id="正文标题-2-1-1"><a href="#正文标题-2-1-1" class="headerlink" title="正文标题 2.1.1"></a>正文标题 2.1.1</h3><h4 id="正文标题-2-1-1-1"><a href="#正文标题-2-1-1-1" class="headerlink" title="正文标题 2.1.1.1"></a>正文标题 2.1.1.1</h4>]]></content>
-      
-      
-      <categories>
-          
-          <category> java </category>
-          
-          <category> jvm </category>
-          
-          <category> blog </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> tag1 </tag>
-            
-            <tag> tag2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>MySql的一些设计规范及Explain工具解析</title>
       <link href="2021/04/29/gc9p5v.html"/>
       <url>2021/04/29/gc9p5v.html</url>
@@ -81,33 +50,6 @@
         <content type="html"><![CDATA[<h2 id="登录NuGet"><a href="#登录NuGet" class="headerlink" title="登录NuGet"></a>登录<a href="https://www.nuget.org/">NuGet</a></h2><p>没有账号自己注册</p><h2 id="申请-ApiKey"><a href="#申请-ApiKey" class="headerlink" title="申请 ApiKey"></a>申请 ApiKey</h2><p><img src="https://cdn.nlark.com/yuque/0/2019/png/105968/1560349730833-a8cc7ba2-3ffe-49fc-9397-8b641bf3e25a.png#align=left&display=inline&height=347&name=image.png&originHeight=1386&originWidth=2560&size=195033&status=done&width=640" alt="image.png"></p><h2 id="下载nuget-exe-配置环境变量"><a href="#下载nuget-exe-配置环境变量" class="headerlink" title="下载nuget.exe, 配置环境变量"></a>下载<a href="https://www.nuget.org/downloads">nuget.exe</a>, 配置环境变量</h2><p>在系统环境变量 path 中新增 nuget.exe 所在目录位置，如：D:\Tools\nuget<br>测试：在 cmd 中输入 nuget 回车 看看是否能识别</p><h2 id="设置-nuget-的-ApiKey"><a href="#设置-nuget-的-ApiKey" class="headerlink" title="设置 nuget 的 ApiKey"></a>设置 nuget 的 ApiKey</h2><p>为了能上传需要设置 apikey 上面所申请的 key<br>在 cmd 中输入命令 nuget setApiKey xxxxxxxxxxxxxxx 回车即可。</p><h2 id="发布包到-nuget-org"><a href="#发布包到-nuget-org" class="headerlink" title="发布包到 nuget.org"></a>发布包到 nuget.org</h2><p>在 cmd 中进入到在包所在目录中<br>输入命令   nuget push xxxxxx.nupkg -Source <a href="https://api.nuget.org/v3/index.json">https://api.nuget.org/v3/index.json</a> 回车 。</p>]]></content>
       
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>JVM 对象布局</title>
-      <link href="2017/03/19/ma4fim.html"/>
-      <url>2017/03/19/ma4fim.html</url>
-      
-        <content type="html"><![CDATA[<p>Hexo + Github + 语雀 + yuque-hexo +travis-ci+severless 打造全自动持续集成个人博客，云端写作，自动部署，完美体验~</p><span id="more"></span><h1 id="对象布局图解析"><a href="#对象布局图解析" class="headerlink" title="对象布局图解析"></a>对象布局图解析</h1><p><img src="https://cdn.nlark.com/yuque/0/2021/png/105968/1619666460871-3d1fbbdd-fb1b-4b1a-8691-d82812efd13d.png#clientId=u71e0b6f2-65f2-4&from=paste&height=544&id=uce2a3a3b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=544&originWidth=1005&originalType=binary&size=103200&status=done&style=none&taskId=u31e7a895-3a50-4a8d-aa63-66db6cd3e07&width=1005" alt="image.png"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> node </tag>
-            
-        </tags>
       
     </entry>
     
