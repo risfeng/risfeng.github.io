@@ -8,9 +8,25 @@
       <link href="2021/04/29/hexo%E5%8D%9A%E5%AE%A2%E6%A8%A1%E7%89%88.html"/>
       <url>2021/04/29/hexo%E5%8D%9A%E5%AE%A2%E6%A8%A1%E7%89%88.html</url>
       
-        <content type="html"><![CDATA[<p>date: yyyy-mm-dd hh:mm:ss<br>tags: [tag1, tag2]<br>categories: [java, jvm]</p><hr><p>文章摘要部分很少啊啊啊</p><span id="more"></span><h1 id="正文标题-1"><a href="#正文标题-1" class="headerlink" title="正文标题 1"></a>正文标题 1</h1><h2 id="正文标题-1-1"><a href="#正文标题-1-1" class="headerlink" title="正文标题 1.1"></a>正文标题 1.1</h2><h3 id="正文标题-1-1-1"><a href="#正文标题-1-1-1" class="headerlink" title="正文标题 1.1.1"></a>正文标题 1.1.1</h3><h4 id="正文标题-1-1-1-1"><a href="#正文标题-1-1-1-1" class="headerlink" title="正文标题 1.1.1.1"></a>正文标题 1.1.1.1</h4><h1 id="正文标题-2"><a href="#正文标题-2" class="headerlink" title="正文标题 2"></a>正文标题 2</h1><h2 id="正文标题-2-1"><a href="#正文标题-2-1" class="headerlink" title="正文标题 2.1"></a>正文标题 2.1</h2><h3 id="正文标题-2-1-1"><a href="#正文标题-2-1-1" class="headerlink" title="正文标题 2.1.1"></a>正文标题 2.1.1</h3><h4 id="正文标题-2-1-1-1"><a href="#正文标题-2-1-1-1" class="headerlink" title="正文标题 2.1.1.1"></a>正文标题 2.1.1.1</h4>]]></content>
+        <content type="html"><![CDATA[<p>文章摘要部分很少啊啊啊</p><span id="more"></span><h1 id="正文标题-1"><a href="#正文标题-1" class="headerlink" title="正文标题 1"></a>正文标题 1</h1><h2 id="正文标题-1-1"><a href="#正文标题-1-1" class="headerlink" title="正文标题 1.1"></a>正文标题 1.1</h2><h3 id="正文标题-1-1-1"><a href="#正文标题-1-1-1" class="headerlink" title="正文标题 1.1.1"></a>正文标题 1.1.1</h3><h4 id="正文标题-1-1-1-1"><a href="#正文标题-1-1-1-1" class="headerlink" title="正文标题 1.1.1.1"></a>正文标题 1.1.1.1</h4><h1 id="正文标题-2"><a href="#正文标题-2" class="headerlink" title="正文标题 2"></a>正文标题 2</h1><h2 id="正文标题-2-1"><a href="#正文标题-2-1" class="headerlink" title="正文标题 2.1"></a>正文标题 2.1</h2><h3 id="正文标题-2-1-1"><a href="#正文标题-2-1-1" class="headerlink" title="正文标题 2.1.1"></a>正文标题 2.1.1</h3><h4 id="正文标题-2-1-1-1"><a href="#正文标题-2-1-1-1" class="headerlink" title="正文标题 2.1.1.1"></a>正文标题 2.1.1.1</h4>]]></content>
       
       
+      <categories>
+          
+          <category> java </category>
+          
+          <category> jvm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
       
     </entry>
     
