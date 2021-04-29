@@ -6,7 +6,7 @@
   <link href="https://risfeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://risfeng.github.io/"/>
-  <updated>2021-04-29T15:28:35.281Z</updated>
+  <updated>2021-04-29T15:37:27.319Z</updated>
   <id>https://risfeng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://risfeng.github.io/2021/04/29/tgzeiv.html"/>
     <id>https://risfeng.github.io/2021/04/29/tgzeiv.html</id>
     <published>2021-04-29T15:23:23.000Z</published>
-    <updated>2021-04-29T15:28:35.281Z</updated>
+    <updated>2021-04-29T15:37:27.319Z</updated>
     
     
     <summary type="html">&lt;p&gt;文章摘要部分很少啊啊啊&lt;/p&gt;</summary>
@@ -31,6 +31,8 @@
     <category term="java" scheme="https://risfeng.github.io/categories/java/"/>
     
     <category term="jvm" scheme="https://risfeng.github.io/categories/java/jvm/"/>
+    
+    <category term="blog" scheme="https://risfeng.github.io/categories/blog/"/>
     
     
     <category term="tag1" scheme="https://risfeng.github.io/tags/tag1/"/>
@@ -44,7 +46,7 @@
     <link href="https://risfeng.github.io/2021/04/29/gc9p5v.html"/>
     <id>https://risfeng.github.io/2021/04/29/gc9p5v.html</id>
     <published>2021-04-28T16:17:22.000Z</published>
-    <updated>2021-04-29T15:28:35.629Z</updated>
+    <updated>2021-04-29T15:37:27.623Z</updated>
     
     
       
@@ -66,7 +68,7 @@
     <link href="https://risfeng.github.io/2020/06/06/ve2rr3.html"/>
     <id>https://risfeng.github.io/2020/06/06/ve2rr3.html</id>
     <published>2020-06-06T09:55:19.000Z</published>
-    <updated>2021-04-29T15:28:35.645Z</updated>
+    <updated>2021-04-29T15:37:27.639Z</updated>
     
     
       
@@ -87,7 +89,7 @@
     <link href="https://risfeng.github.io/2019/07/11/yd5zw0.html"/>
     <id>https://risfeng.github.io/2019/07/11/yd5zw0.html</id>
     <published>2019-07-11T05:08:07.000Z</published>
-    <updated>2021-04-29T15:28:35.649Z</updated>
+    <updated>2021-04-29T15:37:27.643Z</updated>
     
     
       
@@ -109,7 +111,7 @@
     <link href="https://risfeng.github.io/2019/06/12/rq1xza.html"/>
     <id>https://risfeng.github.io/2019/06/12/rq1xza.html</id>
     <published>2019-06-12T14:19:08.000Z</published>
-    <updated>2021-04-29T15:28:35.661Z</updated>
+    <updated>2021-04-29T15:37:27.663Z</updated>
     
     
       
@@ -130,7 +132,7 @@
     <link href="https://risfeng.github.io/2017/03/19/ma4fim.html"/>
     <id>https://risfeng.github.io/2017/03/19/ma4fim.html</id>
     <published>2017-03-19T10:27:01.000Z</published>
-    <updated>2021-04-29T15:28:35.289Z</updated>
+    <updated>2021-04-29T15:37:27.327Z</updated>
     
     
     <summary type="html">&lt;p&gt;Hexo + Github + 语雀 + yuque-hexo +travis-ci+severless 打造全自动持续集成个人博客，云端写作，自动部署，完美体验~&lt;/p&gt;</summary>
