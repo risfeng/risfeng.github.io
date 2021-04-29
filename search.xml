@@ -8,7 +8,7 @@
       <link href="2021/04/29/JVM%20%E5%AF%B9%E8%B1%A1%E5%B8%83%E5%B1%80.html"/>
       <url>2021/04/29/JVM%20%E5%AF%B9%E8%B1%A1%E5%B8%83%E5%B1%80.html</url>
       
-        <content type="html"><![CDATA[<p>tags:</p><ul><li>jvm</li><li>对象头</li></ul><h1 id="对象布局图解析"><a href="#对象布局图解析" class="headerlink" title="对象布局图解析"></a>对象布局图解析</h1><p><img src="https://cdn.nlark.com/yuque/0/2021/png/105968/1619666460871-3d1fbbdd-fb1b-4b1a-8691-d82812efd13d.png#clientId=u71e0b6f2-65f2-4&from=paste&height=544&id=uce2a3a3b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=544&originWidth=1005&originalType=binary&size=103200&status=done&style=none&taskId=u31e7a895-3a50-4a8d-aa63-66db6cd3e07&width=1005" alt="image.png"></p>]]></content>
+        <content type="html"><![CDATA[<hr><p>title: JVM 对象布局<br>author: risfeng<br>tags:<br>• JVM<br>• 对象布局<br>categories:<br>• jvm<br>cover: ‘zfe.space/images/letter/y.png’<br>top_img: ‘zfe.space/images/letter/y.png’<br>abbrlink: 554e<br>date: 2020-12-16 11:42:00</p><hr><h1 id=""><a href="#" class="headerlink" title=""></a></h1><h1 id="对象布局图解析"><a href="#对象布局图解析" class="headerlink" title="对象布局图解析"></a>对象布局图解析</h1><p><img src="https://cdn.nlark.com/yuque/0/2021/png/105968/1619666460871-3d1fbbdd-fb1b-4b1a-8691-d82812efd13d.png#clientId=u71e0b6f2-65f2-4&from=paste&height=544&id=uce2a3a3b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=544&originWidth=1005&originalType=binary&size=103200&status=done&style=none&taskId=u31e7a895-3a50-4a8d-aa63-66db6cd3e07&width=1005" alt="image.png"></p>]]></content>
       
       
       
