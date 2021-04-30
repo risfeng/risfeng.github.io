@@ -6,7 +6,7 @@
   <link href="https://risfeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://risfeng.github.io/"/>
-  <updated>2021-04-30T06:20:36.560Z</updated>
+  <updated>2021-04-30T06:27:40.843Z</updated>
   <id>https://risfeng.github.io/</id>
   
   <author>
@@ -18,23 +18,26 @@
   
   <entry>
     <title>MySql的一些设计规范及Explain工具解析</title>
-    <link href="https://risfeng.github.io/2021/04/29/gc9p5v.html"/>
-    <id>https://risfeng.github.io/2021/04/29/gc9p5v.html</id>
-    <published>2021-04-28T16:17:22.000Z</published>
-    <updated>2021-04-30T06:20:36.560Z</updated>
+    <link href="https://risfeng.github.io/2020/11/04/gc9p5v.html"/>
+    <id>https://risfeng.github.io/2020/11/04/gc9p5v.html</id>
+    <published>2020-11-04T05:00:24.000Z</published>
+    <updated>2021-04-30T06:27:40.843Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;MySql-设计规范&quot;&gt;&lt;a href=&quot;#MySql-设计规范&quot; class=&quot;headerlink&quot; title=&quot;MySql 设计规范&quot;&gt;&lt;/a&gt;MySql 设计规范&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;必须使用 InnoDB</summary>
-        
-      
+    <summary type="html">&lt;p&gt;MySql 的一些设计规范及 Explain 工具解析&lt;/p&gt;</summary>
     
     
     
+    <category term="数据库" scheme="https://risfeng.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="mysql" scheme="https://risfeng.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/mysql/"/>
+    
+    
+    <category term="mysql" scheme="https://risfeng.github.io/tags/mysql/"/>
+    
+    <category term="sql设计规范" scheme="https://risfeng.github.io/tags/sql%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/"/>
+    
+    <category term="mysql Explain工具" scheme="https://risfeng.github.io/tags/mysql-Explain%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -43,7 +46,7 @@
     <link href="https://risfeng.github.io/2020/06/06/ve2rr3.html"/>
     <id>https://risfeng.github.io/2020/06/06/ve2rr3.html</id>
     <published>2020-06-06T09:55:19.000Z</published>
-    <updated>2021-04-30T06:20:36.576Z</updated>
+    <updated>2021-04-30T06:27:40.859Z</updated>
     
     
       
@@ -64,7 +67,7 @@
     <link href="https://risfeng.github.io/2019/07/11/yd5zw0.html"/>
     <id>https://risfeng.github.io/2019/07/11/yd5zw0.html</id>
     <published>2019-07-11T05:08:07.000Z</published>
-    <updated>2021-04-30T06:20:36.580Z</updated>
+    <updated>2021-04-30T06:27:40.863Z</updated>
     
     
       
@@ -86,7 +89,7 @@
     <link href="https://risfeng.github.io/2019/06/12/rq1xza.html"/>
     <id>https://risfeng.github.io/2019/06/12/rq1xza.html</id>
     <published>2019-06-12T14:19:08.000Z</published>
-    <updated>2021-04-30T06:20:36.588Z</updated>
+    <updated>2021-04-30T06:27:40.875Z</updated>
     
     
       
