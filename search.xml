@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>centos frps开机启动服务配置注意点</title>
+      <link href="20221/05/05/yn3gcs.html"/>
+      <url>20221/05/05/yn3gcs.html</url>
+      
+        <content type="html"><![CDATA[<p>在 centos 中设置 frps 服务端开机启动服务配置时有一个注意点，顺便记录一下。</p><span id="more"></span><h1 id="frps-搭建"><a href="#frps-搭建" class="headerlink" title="frps 搭建"></a>frps 搭建</h1><p>本文不再说明，网上很多教程，请自行查阅。</p><h1 id="frps-服务开机自启动"><a href="#frps-服务开机自启动" class="headerlink" title="frps 服务开机自启动"></a>frps 服务开机自启动</h1><pre class=" language-shell"><code class="language-shell"># 将frps这个二进制文件复制到/usr/local/bin/这里，否则启动服务会报错203/EXECsudo cp frps /usr/local/bin/frps# 下面这些文件放到什么地方都无所谓sudo mkdir /etc/frpsudo cp frps.ini /etc/frp/frps.ini# 创建SERVICE文件：sudo vi /usr/lib/systemd/system/frps.service# 文件内容[Unit]Description=frps serviceAfter=network.target[Service]TimeoutStartSec=30ExecStart=/usr/local/bin/frps -c /etc/frp/frps.iniExecStop=/bin/kill $MAINPID[Install]WantedBy=multi-user.target#保存后启动frps服务并设置开机启动sudo systemctl start frps #启动sudo systemctl enable frps #开机启动sudo systemctl status frps #查看服务运行状态</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+          <category> centos8 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> frps </tag>
+            
+            <tag> frps开机启动 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MySql的一些设计规范及Explain工具解析</title>
       <link href="2020/11/04/gc9p5v.html"/>
       <url>2020/11/04/gc9p5v.html</url>

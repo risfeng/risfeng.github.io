@@ -6,7 +6,7 @@
   <link href="https://risfeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://risfeng.github.io/"/>
-  <updated>2021-05-02T07:51:49.303Z</updated>
+  <updated>2021-05-05T09:23:49.609Z</updated>
   <id>https://risfeng.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>centos frps开机启动服务配置注意点</title>
+    <link href="https://risfeng.github.io/20221/05/05/yn3gcs.html"/>
+    <id>https://risfeng.github.io/20221/05/05/yn3gcs.html</id>
+    <published>+020221-05-05T09:12:30.000Z</published>
+    <updated>2021-05-05T09:23:49.609Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在 centos 中设置 frps 服务端开机启动服务配置时有一个注意点，顺便记录一下。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="linux" scheme="https://risfeng.github.io/categories/linux/"/>
+    
+    <category term="centos8" scheme="https://risfeng.github.io/categories/linux/centos8/"/>
+    
+    
+    <category term="frps" scheme="https://risfeng.github.io/tags/frps/"/>
+    
+    <category term="frps开机启动" scheme="https://risfeng.github.io/tags/frps%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySql的一些设计规范及Explain工具解析</title>
     <link href="https://risfeng.github.io/2020/11/04/gc9p5v.html"/>
     <id>https://risfeng.github.io/2020/11/04/gc9p5v.html</id>
     <published>2020-11-04T05:00:24.000Z</published>
-    <updated>2021-05-02T07:51:49.303Z</updated>
+    <updated>2021-05-05T09:23:49.965Z</updated>
     
     
     <summary type="html">&lt;p&gt;MySql 的一些设计规范及 Explain 工具解析&lt;/p&gt;</summary>
@@ -46,7 +69,7 @@
     <link href="https://risfeng.github.io/2020/06/06/ve2rr3.html"/>
     <id>https://risfeng.github.io/2020/06/06/ve2rr3.html</id>
     <published>2020-06-06T10:02:00.000Z</published>
-    <updated>2021-05-02T07:51:49.319Z</updated>
+    <updated>2021-05-05T09:23:49.985Z</updated>
     
     
     <summary type="html">&lt;p&gt;Docker 常用容器启动命令集合&lt;/p&gt;</summary>
@@ -67,7 +90,7 @@
     <link href="https://risfeng.github.io/2019/07/11/yd5zw0.html"/>
     <id>https://risfeng.github.io/2019/07/11/yd5zw0.html</id>
     <published>2019-07-11T05:08:07.000Z</published>
-    <updated>2021-05-02T07:51:49.323Z</updated>
+    <updated>2021-05-05T09:23:49.989Z</updated>
     
     
       
@@ -89,7 +112,7 @@
     <link href="https://risfeng.github.io/2019/06/12/rq1xza.html"/>
     <id>https://risfeng.github.io/2019/06/12/rq1xza.html</id>
     <published>2019-06-12T14:19:08.000Z</published>
-    <updated>2021-05-02T07:51:49.339Z</updated>
+    <updated>2021-05-05T09:23:50.005Z</updated>
     
     
     <summary type="html">&lt;p&gt;date:2019-06-12 22:39:20&lt;br&gt;tags:[nuget, 发布 nuget 包]&lt;br&gt;categories:[.Net]&lt;/p&gt;
