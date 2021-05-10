@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>最新版本的K8S集群搭建</title>
+      <link href="2021/05/11/cuq0ka.html"/>
+      <url>2021/05/11/cuq0ka.html</url>
+      
+        <content type="html"><![CDATA[<p>之前搞过几次 k8s 集群搭建，由于网络各种问题没成功，就没有去研究了。最近闲下来在家里的软路由上开了 3 台 centos8 虚拟机，又 k8s 集群搭建搞了一遍。</p><span id="more"></span><h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><h2 id="服务环境准备"><a href="#服务环境准备" class="headerlink" title="服务环境准备"></a>服务环境准备</h2><p>我准备了 3 台服务器，越多越好。一台 master，多台 slave 节点。</p><table><thead><tr><th><strong>服务器角色</strong></th><th><strong>系统</strong></th><th><strong>ip</strong></th><th><strong>主机名</strong></th></tr></thead><tbody><tr><td>master</td><td>centos8</td><td>192.168.1.12</td><td>master</td></tr><tr><td>slave</td><td>centos8</td><td>192.168.1.13</td><td>slave1</td></tr><tr><td>slave</td><td>centos8</td><td>192.168.1.14</td><td>slave2</td></tr><tr><td>slave</td><td>centos8</td><td>……</td><td>slave……</td></tr><tr><td>slave</td><td>centos8</td><td>……N</td><td>slaveN</td></tr></tbody></table><h2 id="系统环境准备"><a href="#系统环境准备" class="headerlink" title="系统环境准备"></a>系统环境准备</h2><blockquote><p>所有服务器都需要执行、确认</p></blockquote><ul><li>确保可以通外网，ping 一下百度通就行</li></ul><pre class=" language-shell"><code class="language-shell">[root@master ~]# ping baidu.comPING baidu.com (39.156.69.79) 56(84) bytes of data.64 bytes from 39.156.69.79 (39.156.69.79): icmp_seq=1 ttl=50 time=31.3 ms64 bytes from 39.156.69.79 (39.156.69.79): icmp_seq=2 ttl=50 time=31.1 ms64 bytes from 39.156.69.79 (39.156.69.79): icmp_seq=3 ttl=50 time=31.2 ms</code></pre><ul><li>uname -a 查看内核是否大于等于 3.1</li></ul><pre class=" language-shell"><code class="language-shell">[root@master ~]# uname -aLinux master 4.18.0-193.el8.x86_64 #1 SMP Fri May 8 10:59:10 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux</code></pre><ul><li>关闭防火墙（我只关闭了从节点，master 节点没有关闭，我要对外；嫌麻烦就三个节点都关闭）</li></ul><pre class=" language-shell"><code class="language-shell">[root@slave1 ~]# systemctl stop firewalld[root@slave1 ~]# systemctl disable firewalld</code></pre><ul><li>把系统的软件安装源切换到阿里云（目的就是快）</li></ul><pre class=" language-shell"><code class="language-shell"># 此处不要学我，我图方便直接删除了，你可以把原来的备份一下 eg: mv /etc/yum.repos.d/CentOS-AppStream.repo /etc/yum.repos.d/CentOS-AppStream.repo.bak[root@slave1 ~]# rm -rfv /etc/yum.repos.d/*已删除'/etc/yum.repos.d/CentOS-Base.repo'已删除'/etc/yum.repos.d/CentOS-CR.repo'已删除'/etc/yum.repos.d/CentOS-Debuginfo.repo'已删除'/etc/yum.repos.d/CentOS-Devel.repo'已删除'/etc/yum.repos.d/CentOS-fasttrack.repo'已删除'/etc/yum.repos.d/CentOS-HA.repo'已删除'/etc/yum.repos.d/CentOS-Media.repo'已删除'/etc/yum.repos.d/CentOS-Sources.repo'已删除'/etc/yum.repos.d/CentOS-Vault.repo'已删除'/etc/yum.repos.d/docker-ce.repo'已删除'/etc/yum.repos.d/kubernetes.repo'[root@slave1 ~]# curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-8.repo  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed100  2595  100  2595    0     0  25194      0 --:--:-- --:--:-- --:--:-- 25194[root@slave1 ~]#</code></pre><ul><li>阿达</li><li>阿</li><li>阿</li><li>阿达</li><li></li></ul><p>1.</p><h3 id="正文标题-1-1-1"><a href="#正文标题-1-1-1" class="headerlink" title="正文标题 1.1.1"></a>正文标题 1.1.1</h3><h4 id="正文标题-1-1-1-1"><a href="#正文标题-1-1-1-1" class="headerlink" title="正文标题 1.1.1.1"></a>正文标题 1.1.1.1</h4><h1 id="正文标题-2"><a href="#正文标题-2" class="headerlink" title="正文标题 2"></a>正文标题 2</h1><h2 id="正文标题-2-1"><a href="#正文标题-2-1" class="headerlink" title="正文标题 2.1"></a>正文标题 2.1</h2><h3 id="正文标题-2-1-1"><a href="#正文标题-2-1-1" class="headerlink" title="正文标题 2.1.1"></a>正文标题 2.1.1</h3><h4 id="正文标题-2-1-1-1"><a href="#正文标题-2-1-1-1" class="headerlink" title="正文标题 2.1.1.1"></a>正文标题 2.1.1.1</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> docker </category>
+          
+          <category> k8s </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> docker </tag>
+            
+            <tag> k8s </tag>
+            
+            <tag> centos8 k8s </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>centos frps开机启动服务配置注意点</title>
       <link href="2021/05/05/yn3gcs.html"/>
       <url>2021/05/05/yn3gcs.html</url>

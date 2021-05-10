@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://risfeng.github.io/404/index.html</loc>
+    <loc>https://risfeng.github.io/2021/05/11/cuq0ka.html</loc>
     
     <lastmod>2021-05-10</lastmod>
     
@@ -92,6 +92,13 @@
     
   </url>
   
+  <url>
+    <loc>https://risfeng.github.io/404/index.html</loc>
+    
+    <lastmod>2021-05-10</lastmod>
+    
+  </url>
+  
 
   <url>
     <loc>https://risfeng.github.io/</loc>
@@ -102,6 +109,27 @@
 
   
   <url>
+    <loc>https://risfeng.github.io/tags/docker/</loc>
+    <lastmod>2021-05-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://risfeng.github.io/tags/k8s/</loc>
+    <lastmod>2021-05-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://risfeng.github.io/tags/centos8-k8s/</loc>
+    <lastmod>2021-05-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://risfeng.github.io/tags/nuget/</loc>
     <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
@@ -110,13 +138,6 @@
   
   <url>
     <loc>https://risfeng.github.io/tags/%E5%8F%91%E5%B8%83nuget%E5%8C%85/</loc>
-    <lastmod>2021-05-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://risfeng.github.io/tags/docker/</loc>
     <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -181,6 +202,13 @@
 
   
   <url>
+    <loc>https://risfeng.github.io/categories/docker/</loc>
+    <lastmod>2021-05-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://risfeng.github.io/categories/Net/</loc>
     <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
@@ -196,6 +224,13 @@
   
   <url>
     <loc>https://risfeng.github.io/categories/java/</loc>
+    <lastmod>2021-05-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://risfeng.github.io/categories/docker/k8s/</loc>
     <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
