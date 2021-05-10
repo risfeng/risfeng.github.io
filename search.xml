@@ -95,9 +95,25 @@
       <link href="2019/07/11/yd5zw0.html"/>
       <url>2019/07/11/yd5zw0.html</url>
       
-        <content type="html"><![CDATA[<p>1 列表转换及字符串 joining</p><pre class=" language-java"><code class="language-java"> List<span class="token operator">&lt;</span><span class="token operator">?</span><span class="token operator">></span> pathCodes <span class="token operator">=</span> <span class="token punctuation">(</span>List<span class="token operator">&lt;</span><span class="token operator">?</span><span class="token operator">></span><span class="token punctuation">)</span> params<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"pathCodes"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>String pathCodeLikeWhere <span class="token operator">=</span> pathCodes                <span class="token punctuation">.</span><span class="token function">stream</span><span class="token punctuation">(</span><span class="token punctuation">)</span>                <span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>obj <span class="token operator">-</span><span class="token operator">></span> String<span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">"Ancestor LIKE '%s%%'"</span><span class="token punctuation">,</span> obj<span class="token punctuation">)</span><span class="token punctuation">)</span>                <span class="token punctuation">.</span><span class="token function">collect</span><span class="token punctuation">(</span>Collectors<span class="token punctuation">.</span><span class="token function">joining</span><span class="token punctuation">(</span><span class="token string">" OR "</span><span class="token punctuation">,</span> <span class="token string">"("</span><span class="token punctuation">,</span> <span class="token string">")"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">// 结果："(Ancestor LIKE 'xxx%' OR Ancestor LIKE 'xxxxx%')"</span></code></pre><h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
+        <content type="html"><![CDATA[<p>java stream 字符串转换顺便记录一下。</p><span id="more"></span><p>列表转换及字符串 joining</p><pre class=" language-java"><code class="language-java"> List<span class="token operator">&lt;</span><span class="token operator">?</span><span class="token operator">></span> pathCodes <span class="token operator">=</span> <span class="token punctuation">(</span>List<span class="token operator">&lt;</span><span class="token operator">?</span><span class="token operator">></span><span class="token punctuation">)</span> params<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"pathCodes"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>String pathCodeLikeWhere <span class="token operator">=</span> pathCodes                <span class="token punctuation">.</span><span class="token function">stream</span><span class="token punctuation">(</span><span class="token punctuation">)</span>                <span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>obj <span class="token operator">-</span><span class="token operator">></span> String<span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">"Ancestor LIKE '%s%%'"</span><span class="token punctuation">,</span> obj<span class="token punctuation">)</span><span class="token punctuation">)</span>                <span class="token punctuation">.</span><span class="token function">collect</span><span class="token punctuation">(</span>Collectors<span class="token punctuation">.</span><span class="token function">joining</span><span class="token punctuation">(</span><span class="token string">" OR "</span><span class="token punctuation">,</span> <span class="token string">"("</span><span class="token punctuation">,</span> <span class="token string">")"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">// 结果："(Ancestor LIKE 'xxx%' OR Ancestor LIKE 'xxxxx%')"</span></code></pre><h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
       
       
+      <categories>
+          
+          <category> java </category>
+          
+          <category> 集合 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java list </tag>
+            
+            <tag> list </tag>
+            
+        </tags>
       
     </entry>
     
