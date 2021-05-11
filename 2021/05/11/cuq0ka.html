@@ -120,7 +120,7 @@ EOF
 --apiserver-advertise-address=192.168.1.12  \
 --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers  \
 --service-cidr=10.10.0.0/16 --pod-network-cidr=10.122.0.0/16
-</code></pre><blockquote><p>命令说明：<br>kubernetes-version 是 k8s 的版本 1.21.0 目前最新的，可以通过官网查看目前最新版本：<a target="_blank" rel="noopener" href="https://kubernetes.io/">https://kubernetes.io/</a> 导航栏中的 Versions<br>apiserver-advertise-address 地址就是 master 本机 ip<br>service-cidr 的网段为：10.10.0.0/16<br>pod-network-cidr 的网段为: 10.122.0.0/16<br>image-repository：由于 kubeadm 默认从官网 k8s.grc.io 下载所需镜像，一般国内无法访问，故需指定为阿里云镜像仓库地址</p></blockquote><ul><li>如果执行上面初始化命令失败，提示无法下载镜像时，请参考<a href="#ahvw4">附录 A-1</a>处理后再次执行初始化命令</li><li>如果集群初始化成功后返回如下信息，请记录最后的加入集群的命令及 token 信息：kubeadm join 192.168.1.12:6443 –token xxxx –discovery-token-ca-cert-hash xxxx</li></ul><pre class="language-shell"><code class="language-shell">此处省略很多输出信息.......
+</code></pre><blockquote><p>命令说明：<br>kubernetes-version 是 k8s 的版本 1.21.0 目前最新的，可以通过官网查看目前最新版本：<a target="_blank" rel="noopener" href="https://kubernetes.io/">https://kubernetes.io/</a> 导航栏中的 Versions<br>apiserver-advertise-address 地址就是 master 本机 ip<br>service-cidr 的网段为：10.10.0.0/16<br>pod-network-cidr 的网段为: 10.122.0.0/16<br>image-repository：由于 kubeadm 默认从官网 k8s.grc.io 下载所需镜像，一般国内无法访问，故需指定为阿里云镜像仓库地址</p></blockquote><ul><li>如果执行上面初始化命令失败，提示无法下载镜像时，请参考<a href="#A-1%EF%BC%9A%E5%88%9D%E5%A7%8B%E5%8C%96%E9%9B%86%E7%BE%A4%E6%97%B6%E6%8F%90%E7%A4%BA%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F">附录 A-1</a>处理后再次执行初始化命令</li><li>如果集群初始化成功后返回如下信息，请记录最后的加入集群的命令及 token 信息：kubeadm join 192.168.1.12:6443 –token xxxx –discovery-token-ca-cert-hash xxxx</li></ul><pre class="language-shell"><code class="language-shell">此处省略很多输出信息.......
 Your Kubernetes control-plane has initialized successfully!
 
 To start using your cluster, you need to run the following as a regular user:
@@ -187,7 +187,7 @@ k8s.gcr.io/coredns/coredns:v1.8.0
 [root@master ~]# docker pull coredns/coredns:1.8.0 
 [root@master ~]# docker tag coredns/coredns:1.8.0 registry.cn-hangzhou.aliyuncs.com/google_containers/coredns/coredns:v1.8.0
 [root@master ~]# docker rmi coredns/coredns:1.8.0
-</code></pre><h2 id="A-2：集群初始化后已经-join-了其他节点，但是现在某些组件一直不停的重启、创建、销毁等状态中，尝试了各种方法都无法解决时，不妨尝试重置集群从头来一次初始化集群。"><a href="#A-2：集群初始化后已经-join-了其他节点，但是现在某些组件一直不停的重启、创建、销毁等状态中，尝试了各种方法都无法解决时，不妨尝试重置集群从头来一次初始化集群。" class="headerlink" title="A-2：集群初始化后已经 join 了其他节点，但是现在某些组件一直不停的重启、创建、销毁等状态中，尝试了各种方法都无法解决时，不妨尝试重置集群从头来一次初始化集群。"></a>A-2：集群初始化后已经 join 了其他节点，但是现在某些组件一直不停的重启、创建、销毁等状态中，尝试了各种方法都无法解决时，不妨尝试重置集群从头来一次初始化集群。</h2><ul><li>彻底的重置集群操作</li></ul><pre class="language-shell"><code class="language-shell"># 驱离名为"slave1"的节点上的pod（master上执行）
+</code></pre><h2 id="A-2：重置-K8S-集群"><a href="#A-2：重置-K8S-集群" class="headerlink" title="A-2：重置 K8S 集群"></a>A-2：重置 K8S 集群</h2><blockquote><p>集群初始化后已经 join 了其他节点，但是现在某些组件一直不停的重启、创建、销毁等状态中，尝试了各种方法都无法解决时，不妨尝试重置集群从头来一次初始化集群。</p></blockquote><pre class="language-shell"><code class="language-shell"># 驱离名为"slave1"的节点上的pod（master上执行）
 [root@master ~]# kubectl drain slave1 --delete-local-data --force --ignore-daemonset
 [root@master ~]# kubectl drain slave2 --delete-local-data --force --ignore-daemonset
 [root@master ~]# kubectl drain master --delete-local-data --force --ignore-daemonset
