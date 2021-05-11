@@ -6,7 +6,7 @@
   <link href="https://risfeng.github.io/atom.xml" rel="self"/>
   
   <link href="https://risfeng.github.io/"/>
-  <updated>2021-05-10T17:01:21.279Z</updated>
+  <updated>2021-05-11T09:58:29.692Z</updated>
   <id>https://risfeng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://risfeng.github.io/2021/05/11/cuq0ka.html"/>
     <id>https://risfeng.github.io/2021/05/11/cuq0ka.html</id>
     <published>2021-05-10T16:18:00.000Z</published>
-    <updated>2021-05-10T17:01:21.279Z</updated>
+    <updated>2021-05-11T09:58:29.692Z</updated>
     
     
     <summary type="html">&lt;p&gt;之前搞过几次 k8s 集群搭建，由于网络各种问题没成功，就没有去研究了。最近闲下来在家里的软路由上开了 3 台 centos8 虚拟机，又 k8s 集群搭建搞了一遍。&lt;/p&gt;</summary>
@@ -46,7 +46,7 @@
     <link href="https://risfeng.github.io/2021/05/05/yn3gcs.html"/>
     <id>https://risfeng.github.io/2021/05/05/yn3gcs.html</id>
     <published>2021-05-05T09:12:30.000Z</published>
-    <updated>2021-05-10T17:01:21.287Z</updated>
+    <updated>2021-05-11T09:58:29.700Z</updated>
     
     
     <summary type="html">&lt;p&gt;在 centos 中设置 frps 服务端开机启动服务配置时有一个注意点，顺便记录一下。&lt;/p&gt;</summary>
@@ -69,7 +69,7 @@
     <link href="https://risfeng.github.io/2020/11/04/gc9p5v.html"/>
     <id>https://risfeng.github.io/2020/11/04/gc9p5v.html</id>
     <published>2020-11-04T05:00:24.000Z</published>
-    <updated>2021-05-10T17:01:21.623Z</updated>
+    <updated>2021-05-11T09:58:30.036Z</updated>
     
     
     <summary type="html">&lt;p&gt;MySql 的一些设计规范及 Explain 工具解析&lt;/p&gt;</summary>
@@ -94,7 +94,7 @@
     <link href="https://risfeng.github.io/2020/06/06/ve2rr3.html"/>
     <id>https://risfeng.github.io/2020/06/06/ve2rr3.html</id>
     <published>2020-06-06T10:02:00.000Z</published>
-    <updated>2021-05-10T17:01:21.647Z</updated>
+    <updated>2021-05-11T09:58:30.072Z</updated>
     
     
     <summary type="html">&lt;p&gt;Docker 常用容器启动命令集合&lt;/p&gt;</summary>
@@ -115,7 +115,7 @@
     <link href="https://risfeng.github.io/2019/07/11/yd5zw0.html"/>
     <id>https://risfeng.github.io/2019/07/11/yd5zw0.html</id>
     <published>2019-07-11T05:12:30.000Z</published>
-    <updated>2021-05-10T17:01:21.651Z</updated>
+    <updated>2021-05-11T09:58:30.076Z</updated>
     
     
     <summary type="html">&lt;p&gt;java stream 字符串转换顺便记录一下。&lt;/p&gt;</summary>
@@ -138,7 +138,7 @@
     <link href="https://risfeng.github.io/2019/06/12/rq1xza.html"/>
     <id>https://risfeng.github.io/2019/06/12/rq1xza.html</id>
     <published>2019-06-12T14:39:20.000Z</published>
-    <updated>2021-05-10T17:01:21.667Z</updated>
+    <updated>2021-05-11T09:58:30.092Z</updated>
     
     
     <summary type="html">&lt;p&gt;发布自己的程序包到 nuget.org&lt;/p&gt;</summary>
